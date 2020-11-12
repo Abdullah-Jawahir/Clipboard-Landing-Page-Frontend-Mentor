@@ -1,0 +1,34 @@
+body{
+
+    width: 1440px;
+    font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400, 600;
+}
+
+:root{
+
+    /*=====Primary-Color=====*/
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    
+    /*=====Neutral-Color=====*/
+
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%);
+}
+
+/*========HEADER SECTION========*/
+
+header{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.header-background-img{
+
+    height: 1%;
+    z-index: -999;
+}
