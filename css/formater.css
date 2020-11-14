@@ -13,3 +13,23 @@ a{
 
     text-decoration: none;
 }
+
+div{
+
+    border:1px solid black;
+}
+
+section{
+
+    border:1px solid red;
+}
+
+header div{
+
+    border: none;
+}
+
+#tracker div{
+
+    border: none;
+}
