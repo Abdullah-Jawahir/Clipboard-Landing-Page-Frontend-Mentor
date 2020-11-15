@@ -21,7 +21,7 @@ div{
 
 section{
 
-    border:1px solid red;
+    border:none;
 }
 
 header div{
@@ -33,3 +33,28 @@ header div{
 
     border: none;
 }
+
+#clipboard div{
+
+    border: none;
+}
+
+
+#supercharge div{
+
+    border: none;
+}
+
+#ios-mac-clipboard div{
+
+    border: none;
+}
+
+.flex-container{
+
+    border: 1px solid aqua;
+}
+
+
+
+

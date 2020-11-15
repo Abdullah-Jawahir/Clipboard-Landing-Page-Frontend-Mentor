@@ -1,4 +1,4 @@
-body{
+body {
 
     width: 1440px;
     font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
@@ -6,14 +6,14 @@ body{
     font-weight: 400, 600;
 }
 
-:root{
+:root {
 
     /*-----Primary-Color-----*/
     --StrongCyan: hsl(171, 72%, 42%);
     --LightCyan: hsl(171, 70%, 46%);
     --DarkBlue: hsl(233, 100%, 61%);
     --LightBlue: hsl(233, 95%, 66%);
-    
+
     /*-----Neutral-Color-----*/
 
     --DarkGrayishBlue: hsl(210, 10%, 33%);
@@ -22,7 +22,7 @@ body{
 
 /*========HEADER SECTION========*/
 
-header{
+header {
 
     width: 100%;
     display: flex;
@@ -32,18 +32,19 @@ header{
     margin-bottom: 60px;
 }
 
-.header-background-img{
+.header-background-img {
+
     z-index: -999;
 }
 
-.logo{
+.logo {
 
     margin-top: -270px;
     display: flex;
     align-items: center;
 }
 
-header .main-intro{
+header .main-intro {
 
     display: flex;
     flex-direction: column;
@@ -52,7 +53,12 @@ header .main-intro{
     margin: 40px auto 25px auto;
 }
 
-.main-intro > p{
+.main-intro > h1{
+
+    font-size: 2.1em;
+}
+
+.main-intro>p {
 
     line-height: 25px;
     margin: 10px auto;
@@ -61,56 +67,63 @@ header .main-intro{
 
 /*========COMMON STYLES========*/
 
-.main-btn{
+.main-btn {
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 400px;
+    width: 415px;
     border: none;
 
 }
 
-.main-btn .btn-1, .main-btn .btn-2{
+.main-btn .btn-1,
+.main-btn .btn-2 {
 
-    
-    padding: 13px 20px;
+
+    padding: 13px 15px;
     border-radius: 25px;
     border-left: 2px solid;
     border-bottom: 3px solid;
     font-size: 14px;
-    width: 140px;
+    width: 160px;
     text-align: center;
 
 }
 
-.main-btn .btn-1{
+.main-btn .btn-1 {
 
     background-color: var(--LightCyan);
-    border-color: var(--LightCyan); 
+    border-color: var(--LightCyan);
     border-left-color: var(--StrongCyan);
     border-bottom-color: var(--StrongCyan);
     color: #fff;
-    
+
 }
 
-.main-btn .btn-2{
+.main-btn .btn-2 {
 
     background-color: var(--LightBlue);
-    border-color: var(--LightBlue); 
+    border-color: var(--LightBlue);
     border-left-color: var(--DarkBlue);
     border-bottom-color: var(--DarkBlue);
     color: #fff;
 }
 
-.intro{
+.intro {
 
     text-align: center;
 }
 
-.intro > p{
+.intro > p {
 
-    line-height: 25px;
+    line-height: 30px;
+    margin-top: -5px;
+}
+
+.intro > h2{
+
+    font-size: 1.9em;
 }
 
 
@@ -119,15 +132,16 @@ header .main-intro{
 /*========MAIN CONAINER========*/
 
 
-.flex-container{
+.flex-container {
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-section{
+section {
 
     margin-bottom: 60px;
 }
@@ -135,38 +149,38 @@ section{
 
 /*========TRACKING SECTION========*/
 
-#tracker{
+#tracker {
 
     display: grid;
     grid-template-columns: auto auto;
     grid-auto-rows: auto;
     place-content: center;
-    padding: 80px 80px 80px 0;
+    padding: 70px 80px 80px 0;
     grid-gap: 70px;
-    
+
 }
 
-#tracker .intro{
+#tracker .intro {
 
     grid-row: 1/2;
     grid-column: 1/3;
     margin-right: -80px;
 }
 
-#tracker .tracker-img{
+#tracker .tracker-img {
 
     grid-row: 2/3;
     grid-column: 0/2;
     margin-left: -190px;
 }
 
-#tracker .track-tips{
+#tracker .track-tips {
 
     grid-row: 2/3;
     grid-column: 2/3;
 }
 
-.track-tips .track-tips-list{
+.track-tips .track-tips-list {
 
     height: 500px;
     display: flex;
@@ -174,17 +188,18 @@ section{
     justify-content: space-around;
 }
 
-.track-tips-list li{
+.track-tips-list li {
 
     margin-top: 55px;
 }
 
-.track-tips-list li h3{
+.track-tips-list li h3 {
 
     margin-bottom: 9px;
+    font-size: 1.4em;
 }
 
-.track-tips-list li p{
+.track-tips-list li p {
 
     line-height: 30px;
     margin-top: 9px;
@@ -193,7 +208,125 @@ section{
 
 
 /*========CLIPBOARD SECTION========*/
-/*========SUPERCHARGE SECTION========*/
-/*========CLIPBOARD FOR IOS & MAC SECTION========*/
-/*========FOOTER SECTION========*/
 
+#clipboard {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#clipboard img {
+
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/*========SUPERCHARGE SECTION========*/
+
+
+#supercharge {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#supercharge .charge-margn-botm {
+
+    margin-bottom: 45px;
+}
+
+#supercharge .charge-row-list {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+
+.charge-row-list .charge-inner-flex {
+
+    text-align: center;
+    margin-right: 45px;
+}
+
+.charge-row-list .charge-inner-flex:last-child {
+
+    margin-right: 0;
+}
+
+.charge-row-list .charge-inner-flex h3 {
+
+    margin-top: 45px;
+    font-size: 1.4em;
+}
+
+.charge-row-list .charge-inner-flex p {
+
+    text-align: center;
+    line-height: 30px;
+    margin-top: -1px;
+}
+
+.charge-row-list .charge-inner-flex .charge-i-f-h3 {
+
+    margin-top: 53px;
+
+}
+
+.charge-row-list .charge-inner-flex .charge-i-f-img {
+
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+#supercharge .img-row-flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+#supercharge .img-row-flex img{
+
+    margin-right: 120px;
+}
+
+#supercharge .img-row-flex img:last-child{
+
+    margin-right: 0;
+}
+
+
+
+/*========CLIPBOARD FOR IOS & MAC SECTION========*/
+
+#ios-mac-clipboard{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ios-mac-clipboard .main-btn{
+
+    
+    margin-top: 23px;
+    
+}
+
+
+
+
+/*========FOOTER SECTION========*/
