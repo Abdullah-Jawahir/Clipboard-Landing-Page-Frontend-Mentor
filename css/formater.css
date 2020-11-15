@@ -52,8 +52,22 @@ header div{
 
 .flex-container{
 
-    border: 1px solid aqua;
+    border: none;
 }
+
+footer{
+
+    border: none;
+}
+
+footer div{
+
+    border: none;
+}
+
+
+
+
 
 
 
