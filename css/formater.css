@@ -21,50 +21,18 @@ div{
 
 section{
 
-    border:none;
-}
-
-header div{
-
-    border: none;
-}
-
-#tracker div{
-
-    border: none;
-}
-
-#clipboard div{
-
-    border: none;
-}
-
-
-#supercharge div{
-
-    border: none;
-}
-
-#ios-mac-clipboard div{
-
-    border: none;
+    border:1px solid red;
 }
 
 .flex-container{
 
-    border: none;
+    border-color: aqua;
 }
 
-footer{
-
-    border: none;
-}
-
-footer div{
+#tracker .track-tips {
 
     border: none;
 }
-
 
 
 
