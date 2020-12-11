@@ -66,7 +66,7 @@ header .main-intro {
     color: var(--DarkGrayishBlue);
 }
 
-.main-intro>p {
+.main-intro > p {
 
     line-height: 25px;
     margin: 10px auto;
@@ -371,6 +371,7 @@ footer .main-footer{
     width: 1300px;
     margin-left: 10px;
     margin-bottom: -15px;
+    height:4em;
 }
 
 
@@ -410,11 +411,18 @@ footer .footer-mini-links{
 
 footer .social-media-icons{
 
-    line-height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 150px;
+    padding-top: 10px;
+}
+
+footer .social-media-icons a{
+
+    height: 1.45em;
+    margin-top: 10px;
+    line-height: 1.85em;
 }
 
 
@@ -442,25 +450,12 @@ footer .social-media-icons .fa-twitter{
 
     color: var(--DarkGrayishBlue);
     font-size: 1.4em;
+    
 }
 
 footer .social-media-icons .fa-twitter:hover{
 
     color: var(--LightCyan);
-}
-
-
-footer .social-media-icons a:nth-child(1 + 2n){
-
-    width: fit-content;
-    height: 24px;
-    margin-top: 23px;
-}
-
-
-footer .social-media-icons a:last-child:hover{
-
-    border-color: var(--LightCyan);
 }
 
 

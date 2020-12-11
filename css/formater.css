@@ -16,12 +16,12 @@ a{
 
 div{
 
-    border:1px solid black;
+    border: none;
 }
 
 section{
 
-    border:1px solid red;
+    border:none;
 }
 
 .flex-container{
