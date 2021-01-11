@@ -112,7 +112,7 @@ header .main-intro {
     /* overflow-x: scroll; */
 }
 
-#tracker .track-tips-list::-webkit-scrollbar{ */
+#tracker .track-tips-list::-webkit-scrollbar{ 
 
     /* display: none; */
 }

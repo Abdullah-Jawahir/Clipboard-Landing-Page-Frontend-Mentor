@@ -22,13 +22,11 @@ body {
 /*=====HEADER SECTION=====*/
 header {
 
-    max-width: 100%;
     width: 100%;
 }
 
 .header-background-img {
 
-    max-width: 100%;
     width: 100%;
 }
 
@@ -86,6 +84,7 @@ header .main-intro {
     justify-content: space-around;
     margin-right: auto;
     margin-left: auto;
+    height: fit-content;
 }
 
 #tracker .intro {
@@ -107,12 +106,14 @@ header .main-intro {
     margin-right: auto;
     margin-left: auto;
     justify-content: space-between;
+    margin-bottom: 0;
+    height: fit-content;
     /* overflow: hidden; */
     /* overflow-y: hidden; */
     /* overflow-x: scroll; */
 }
 
-#tracker .track-tips-list::-webkit-scrollbar{ */
+#tracker .track-tips-list::-webkit-scrollbar{ 
 
     /* display: none; */
 }
@@ -129,23 +130,18 @@ header .main-intro {
 
 .track-tips-list li {
 
+    width: 100%;
     text-align: center;
-    width: 28%;
-}
-
-.track-tips-list li:last-child{
-
-    margin-right: 0;
-}
-
-.track-tips-list li:last-child h3{
-
-    width: 8.30em;
+    padding: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .track-tips-list li p{
 
-    width: 100%;
+    max-width: 75%;
+    margin: auto;
+
 }
 
 /*========CLIPBOARD SECTION========*/
@@ -162,7 +158,7 @@ header .main-intro {
 
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    max-width: 130%;
 }
 
 #supercharge .charge-row-list .charge-inner-flex{
@@ -189,7 +185,9 @@ header .main-intro {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-auto-rows: auto;
-    grid-row-gap: 30px;
+    grid-gap: 60px;
+    grid-column-gap: 10px;
+    max-width: 130%;
 }
 
 #supercharge .img-row-flex img{

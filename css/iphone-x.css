@@ -1,0 +1,182 @@
+/*=====HEADER SECTION=====*/
+
+
+header {
+
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.main-intro {
+
+    width: 100%;
+}
+
+.main-intro > h1 {
+
+    width: 85%;
+    font-size: 1.8em;
+}
+
+.main-intro > p {
+
+    width: 90%;
+}
+
+/*========COMMON STYLES========*/
+
+.main-btn {
+
+    width: 100%;
+}
+
+.main-btn .btn-1,
+.main-btn .btn-2 {
+
+    width: 75%;
+}
+
+.flex-container {
+
+    max-width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.intro {
+
+    width: 100%;
+}
+
+.intro > h2 {
+
+    width: 100%;
+    font-size: 1.6em;
+}
+
+.intro > p {
+
+    width: 100%;
+    font-size: clamp(1em, .9em, 1.1em);
+}
+
+/*=====TACKING SECTION=====*/
+
+#tracker {
+
+    justify-content: center;
+}
+
+#tracker .intro {
+
+    width: auto;
+    padding-right: 0px;
+    padding-left: 0px; 
+    margin-bottom: 0;
+}
+
+#tracker .intro > h2 {
+
+    width: 90%; 
+}
+
+#tracker .intro > p{
+
+    width: fit-content;
+    margin-top: 1em;
+    padding: 0;
+}
+
+#tracker .tracker-img {
+
+    transform: scale(.4);
+    margin-top: -7em;
+}
+
+.track-tips-list ul {
+
+    margin-top: auto;
+    margin-top: -7em;
+}
+
+.track-tips-list ul li p {
+
+    
+}
+
+/*===== CLIPBOARD SECTION =====*/
+
+#clipboard {
+
+    height: 25em;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+#clipboard img {
+
+    transform: scale(.4);
+    margin-top: -7em;
+    margin-bottom: 0;
+}
+
+/*========FOOTER SECTION========*/
+footer .main-footer{
+
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.main-footer-items {
+
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-img{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: fit-content;
+    margin: auto;
+    margin-left: 35px;
+}
+
+.main-footer .footer-img > img {
+
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+footer .footer-mini-links {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+footer .footer-mini-links a {
+    margin-bottom: 25px;
+}
+
+footer .footer-mini-links a:last-child {
+
+    margin-bottom: 0;
+}
+
+.main-footer .social-media-icons {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.main-footer .social-media-icons a{
+
+    border: none;
+}

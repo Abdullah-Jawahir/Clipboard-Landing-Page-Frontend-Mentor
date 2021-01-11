@@ -1,0 +1,68 @@
+/*=====TACKING SECTION=====*/
+#tracker{
+
+    padding: auto;
+}
+
+
+#tracker .intro p{
+
+    padding: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+}
+
+#tracker .tracker-img{
+
+    transform: scale(.7);
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.track-tips-list li {
+
+    margin-top: 0;
+    width: 34%;
+}
+
+.track-tips-list li:last-child h3{
+
+    width: 100%;
+}
+
+/*=====CLIPBOARD SECTION=====*/
+
+#clipboard img{
+
+    transform: scale(.7);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*=====SUPERCHARGE SECTION=====*/
+
+#supercharge .charge-row-list {
+
+    width: fit-content;
+    padding: 1px;
+}
+
+.charge-i-f-h3-spcl{
+
+    width: max-content;
+}
+
+#supercharge .img-row-flex {
+
+    width: 100%;
+    grid-gap: 50px;
+    grid-column-gap: 10px;
+}
+
+#supercharge .img-row-flex img {
+
+    margin-right: 2em;
+    margin-left: 2em;
+}
