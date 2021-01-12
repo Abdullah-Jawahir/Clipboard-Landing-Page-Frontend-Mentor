@@ -101,8 +101,9 @@ header {
 
 .track-tips-list ul li p {
 
-    
+    max-width: 95%;
 }
+
 
 /*===== CLIPBOARD SECTION =====*/
 
