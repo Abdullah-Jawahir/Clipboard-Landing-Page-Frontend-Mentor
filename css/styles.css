@@ -62,7 +62,7 @@ header {
     margin-top: -270px;
     display: flex;
     align-items: center;
-    animation: zoomOut 1s ease-in;animation;
+    animation: zoomOut 1s ease-in;
 }
 
 header .main-intro {
