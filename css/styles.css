@@ -62,6 +62,7 @@ header {
     margin-top: -270px;
     display: flex;
     align-items: center;
+    animation: zoomOut 1s ease-in;animation;
 }
 
 header .main-intro {
@@ -86,7 +87,7 @@ header .main-intro {
     margin: 10px auto;
     text-align: center;
     color: var(--GrayishBlue);
-    transition: slideFromRight 1s ease-in;
+    animation: slideFromRight 1s ease-in;
 }
 
 /*========COMMON STYLES========*/
@@ -128,6 +129,7 @@ header .main-intro {
     border-bottom-color: var(--StrongCyan);
     color: #fff;
     box-shadow: 0 12px 20px var(--LighterCyan);
+    animation: slideFromLeft 1s ease-in;
 
 }
 
@@ -139,6 +141,7 @@ header .main-intro {
     border-bottom-color: var(--DarkBlue);
     color: #fff;
     box-shadow: 0 12px 20px var(--LighterBlue); 
+    animation: slideFromRight 1s ease-in;
 }
 
 .intro {
@@ -153,6 +156,7 @@ header .main-intro {
     line-height: 30px;
     margin-top: -5px;
     color: var(--GrayishBlue);
+    animation: fadeOut 1s ease-in;
 }
 
 .intro > h2{
@@ -208,6 +212,7 @@ section {
     grid-row: 2/3;
     grid-column: 0/2;
     margin-left: -190px;
+    animation: zoomOut 1s ease-in;
 }
 
 #tracker .track-tips-list {
@@ -223,6 +228,21 @@ section {
 .track-tips-list li {
 
     margin-top: 55px;
+}
+
+.track-tips-list li:nth-of-type(1) {
+
+    animation: slideFromRight 1s ease-in;
+}
+.track-tips-list li:nth-of-type(2) {
+
+    animation: slideFromRight 2s ease-in;
+    
+}
+.track-tips-list li:nth-of-type(3) {
+
+    animation: slideFromRight 3s ease-in;
+    
 }
 
 .track-tips-list li h3 {
@@ -257,6 +277,7 @@ section {
     display: block;
     margin-top: 80px;
     margin-bottom: 30px;
+    animation: zoomOut 1s ease-in;
 }
 
 
@@ -310,6 +331,19 @@ section {
     width: 42em;
 }
 
+.charge-inner-flex:nth-of-type(1) {
+
+    animation: zoomOut 1s ease-in;
+}
+.charge-inner-flex:nth-of-type(2) {
+
+    animation: zoomOut 2s ease-in;
+}
+.charge-inner-flex:nth-of-type(3) {
+
+    animation: zoomOut 3s ease-in;
+}
+
 .charge-row-list .charge-inner-flex h3 {
 
     margin-top: 45px;
@@ -350,6 +384,7 @@ section {
 #supercharge .img-row-flex img{
 
     margin-right: 120px;
+    animation: zoomOut 1s ease-in;
 }
 
 #supercharge .img-row-flex img:last-child{
